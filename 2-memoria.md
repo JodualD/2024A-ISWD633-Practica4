@@ -15,8 +15,7 @@ Memoria swap máxima = memory-swap − memory
 
 **Considerar:** el parámetro --memory-swap siempre se utiliza en conjunto con --memory para definir un límite total de memoria que incluye tanto la memoria RAM como la memoria swap. Al establecer solo --memory-swap sin --memory, Docker no tiene un punto de referencia para calcular la memoria swap máxima, lo que causará un error.
 
-### Ejemplos
-_Puedes copiar y ejecutar directamente cada uno de los comandos_
+### Para crear y ejecutar los siguientes contenedores usar la imagen de nginx:alpine
 
 Limitar la memoria RAM que el contenedor puede utilizar a 10 megabytes
 ```
@@ -28,4 +27,5 @@ Limitar la memoria RAM que el contenedor puede utilizar a 300 megabytes y que el
 docker run -d --name server-nginx --memory=300m --memory-swap=1g nginx:alpine
 ```
 **¿Cuántos megabytes de memoria swap puede utilizar el contenedor creado anteriormente?**
-## COMPLETAR CON LA RESPUESTAS
+
+Alrededor de 700mb
