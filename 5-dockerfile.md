@@ -43,7 +43,7 @@ La opción -t se utiliza para etiquetar la imagen que se está construyendo con 
 5. Exponer el puerto 80
 6. Ejecutar apache
 
-![mapeo](imagenes/dockerfile.PNG)
+![mapeo](imagenes/Dockerfile.PNG)
 
 - apachectl: Es el script de control para el servidor web Apache. Se utiliza para iniciar, detener y controlar el servidor web.
   
